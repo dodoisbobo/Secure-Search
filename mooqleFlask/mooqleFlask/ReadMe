@@ -1,0 +1,3 @@
+The Application.py file is for the webserver application site to handle all working processes needed.
+The db.yaml file is for the webserver application site to connect and communicate with server database.
+Template and static is for the front-end of what user sees.
