@@ -1,3 +1,3 @@
 # Secure-Search
-Secure Search Engine
-The Secure search is called "Mooqle"
+Secure Search Engine.
+\nThe Secure search is called "Mooqle"
