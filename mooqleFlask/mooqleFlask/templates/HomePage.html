@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block head %}
+
+<script>
+    function error(){
+        let text= '{{ InvalidMessage }}'
+        if (text != ""){
+            alert(text)
+        }
+    }
+</script>
+{% endblock %}
+
+{% block body %}
+<body onload="error()">
+<form action="{{ url_for ('handle_data') }}" method="post">
+    <div class ="Logo">
+        <p class="Logo">MooQle</p>
+        <div class="test">
+            <input type="text" name="uKeyword" placeholder="Search...." autocomplete="off"></input>
+            <input type="submit" value="Search"></input>
+        </div>
+    </div>
+</form>
+</body>
+{% endblock %}

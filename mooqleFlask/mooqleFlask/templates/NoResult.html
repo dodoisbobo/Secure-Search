@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<form action="{{ url_for ('handle_data') }}" method="post" >
+    <div class ="LogoReturn">
+        <div class="test">
+            <p class="LogoReturn">MooQle</p>
+            <input type="text" name="uKeyword" placeholder="Search...." autocomplete="off"></input>
+            <input type="submit" value="Search"></input>
+        </div>
+    </div>
+</form>
+<hr></hr>
+<h1 class="return">No result found</h1>
+{% endblock %}

@@ -1,0 +1,10 @@
+# to access cloud server information
+mysql_host: 'mooqledb.cs2xbuollx3x.ap-southeast-1.rds.amazonaws.com'
+mysql_user: 'admin'
+mysql_password: 'mooqledb'
+mysql_db: 'mooqledb'
+
+# mysql_host: 'localhost'
+# mysql_user: 'root'
+# mysql_password: 'user123'
+# mysql_db: 'mooqledb'

@@ -1,0 +1,89 @@
+div.Logo{
+  padding-top:100px;
+  padding-bottom: 40px;
+  margin:auto;
+  width:1000px;
+  /* border:3px solid; */
+  text-align:center;
+}
+
+p.Logo{
+  font-size:100px;
+  margin:0;
+}
+
+div.Logo input[type=text]{
+  float:none;
+  width:50%;
+  padding:10px;
+  font-size:30px;
+  border-radius:15px;
+  margin-left:90px;
+}
+
+div.Logo input[type=submit]{
+  width:10%;
+  margin:10px;
+  padding:10px;
+  font-size:25px;
+  text-align:center;
+}
+div.LogoReturn{
+  padding-top:0px;
+  width:800px;
+  /* border:3px solid; */
+}
+p.LogoReturn{
+  margin-top:0px;
+  font-size:70px;
+  margin-bottom:0px;
+}
+
+div.LogoReturn input[type=text]{
+  float:none;
+  width:50%;
+  padding:10px;
+  font-size:20px;
+  border-radius:15px;
+}
+div.LogoReturn input[type=submit]{
+  width:10%;
+  margin:10px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+}
+
+h1.return{
+  font-size:30px;
+  margin-bottom:0px;
+}
+table{
+  table-layout:fixed;
+  width:60%;
+}
+
+tr.url{
+  font-size:20px;
+}
+th.url{
+  padding-top:20px;
+  text-align:left;
+  padding-bottom:2px;
+  font-size:20px;
+}
+#check{
+  display:none;
+}
+tr.text{
+  font-size: 13px;
+}
+td.text{
+  text-align:left;
+}
+p.total{
+  margin-top:0px;
+  font-size:20px;
+  color:gray;
+  margin-bottom:0px;
+}
